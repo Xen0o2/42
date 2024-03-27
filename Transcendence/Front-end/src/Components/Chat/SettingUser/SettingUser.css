@@ -1,0 +1,89 @@
+.containerSettingUser{
+    height: 35%;
+    width: 70%;
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    right: 20;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+    color: white;
+   
+}
+
+
+.settingButtons {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.setting {
+    height: 20%;
+    font-size: 1rem;
+}
+
+.setting:hover {
+    opacity: 0.8;
+}
+
+.buttonToBlock{
+    width: 60%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 7%;
+}
+
+.buttonProfile {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 60%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.buttonPlay{
+    width: 60%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.buttonPlay:active{
+    transform: scale(1.1);
+}
+
+.buttonBlocked {
+    width: 60%;
+    cursor: not-allowed;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 3%;
+}
+
+.buttonToBlock:active{
+    transform: scale(1.1);
+}
